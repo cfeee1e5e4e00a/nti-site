@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.head img {
+    height: 170px;
+    width: auto;
+}
+
+.form {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 25px;
+}

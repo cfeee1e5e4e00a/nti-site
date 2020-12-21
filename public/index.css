@@ -2,10 +2,18 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .navbar {
-    padding: 1rem;
+    padding-right: 1rem;
+    padding-left: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-height: 72px;
+    /* overflow: visible; */
 }
 
 #signin, #signup {
@@ -13,10 +21,8 @@ html, body {
 }
 
 .content {
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-right: 10rem;
+    padding-left: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -44,6 +50,33 @@ html, body {
 }
 
 #carousel {
-    width: 500px;
+    width: 650px;
     height: auto;
+}
+
+footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 27px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center
+}
+
+footer img {
+    height: 75px;
+    width: auto;
+}
+
+nav img {
+    margin-top: 100px;
+    width: auto;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.carousel-item img {
+    padding-left: 75px;
+    padding-right: 75px;
 }
