@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+#signin, #signup {
+    margin-left: 15px;
+}
+
+.content {
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about h1 {
+    margin-bottom: 15px;
+}
+
+.about a {
+    font-size: 22px;
+}
+
+.about button {
+    margin-top: 15px;
+}
+
+#carousel {
+    width: 500px;
+    height: auto;
+}
